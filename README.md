@@ -31,6 +31,18 @@ pnpm build
 pnpm preview
 ```
 
+## Script de Inicialização
+
+O projeto inclui um script de inicialização que facilita o processo de configuração e execução:
+
+```bash
+# Para iniciar em modo de desenvolvimento
+./start_frontend.sh
+
+# Para gerar build e iniciar em modo de produção
+./start_frontend.sh build
+```
+
 ## Configuração
 
 Copie o arquivo `.env.example` para `.env` e ajuste as configurações conforme necessário:
