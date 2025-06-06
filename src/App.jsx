@@ -689,8 +689,9 @@ function App() {
                 <StreamingMessage content={streamingMessage} isStreaming={isStreaming} />
               )}
               
-              <div ref={messagesEndRef} />
-                      <div className="prose prose-sm max-w-none text-gray-700 dark:text-gray-300">
+              <div>
+                <div ref={messagesEndRef} />
+                <div className="prose prose-sm max-w-none text-gray-700 dark:text-gray-300">
                         <ReactMarkdown 
                           components={{
                             p: ({children}) => <p className="mb-2 last:mb-0">{children}</p>,
